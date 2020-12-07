@@ -1,0 +1,686 @@
+body{
+    background: #000;
+}
+.top_part{
+    background: url(../images/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back{
+   display: inline-flex;
+   margin-top:35px;
+   font-family: 'Jost', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+h1,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin-left: 70px;
+}
+.nav{}
+.nav ul{
+    margin-left: 350px;
+}
+.nav ul li{
+    display: inline-flex;
+    padding: 8px 15px;
+   
+}
+.nav ul li a{
+    color:#fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    
+}
+.mid{
+    margin-left: 770px;
+    margin-top: 220px;
+}
+.mid div{
+    color:#fff;
+    width:530px;
+background: transparent;
+
+}
+.mid div h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.mid div button {
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.mid div button:hover{
+    background: #e9204f;
+    transition: .5s;
+}
+.card{
+    display: inline-flex;
+    margin-left: 70px;
+    margin-top: 150px;
+    width: 87%;
+}
+.saad {
+    padding: 60px 40px 60px 40px;
+    margin-left: 25px;
+    color: #fff;
+    background: #111;
+}
+
+.saad h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 60px 0px 15px 0px;
+    font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.saad p{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start;
+    font-size: 15px;
+
+}
+.afif{
+    background:#e9204f;
+}
+.red{
+    font-size: 40px;
+    color: #e9204f;
+}
+.service{
+    margin-left: 70px;
+    margin-top: 100px;
+
+}
+.ekrokom{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.ekrokom2{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #e9204f;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0px 40px 0px;
+}
+.inline{
+    display: inline-flex;
+    
+}
+.one{   
+}
+.one a{
+    text-decoration: none;
+    color: #000;
+}
+.two{
+    width: 380px;
+    margin-top: 25px;
+    margin-right: 25px;
+    background: #eee;
+}
+.hov{
+    display: inline-flex;
+}
+.hov h3{
+    font-size: 20px;
+    width: 185px;
+    padding: 35px 90px 35px 5px;
+    margin-left: 20px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.hov i{ 
+    margin-top: 35px;
+    font-size: 30px;
+ 
+    
+}
+.two:hover{
+    background:#e9204f;
+}
+.hov:hover{
+    
+    color: #fff;
+   
+
+}
+.hov h3:hover{
+    margin-left: 65px;
+    transition: .5s;
+}
+.work{
+    width: 1100px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.work button{
+    background: transparent;
+    color: #fff;
+    margin-top: -100px;
+   position: absolute;
+   right: 100px;
+
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.work button:hover{
+    background: #e9204f;
+    transition: .5s;
+
+}
+.test{
+    height: 450px;
+    border: 10px solid transparent;
+    
+}
+.test a{
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -1px;
+    color: transparent;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.boro{
+    padding: 175px 0px 220px 0px;
+}
+.boro h1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.boro h3{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.test:hover{
+    border: none;
+}
+.test a:hover{
+    color: #e9204f;
+    transition: .2s;
+}
+.boro:hover {
+        background: #150909ad;
+        transition: .5s;
+}
+.alada{
+    background: url(../images/bulb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada2{
+    background: url(../images/interior.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada3{
+    background: url(../images/woody.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada4{
+    background: url(../images/room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alada5{
+    background: url(../images/shoe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada6{
+    background: url(../images/bicycle.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.us{
+    margin-left: 70px;
+    margin-bottom: 70px;
+
+}
+.flex{
+    display: inline-flex;
+}
+.about {
+    width: 600px;
+}
+.lorem{
+    color: #fff;
+    margin-left: 160px;
+    padding-right: 75px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.about_us{
+    display: inline-flex;
+    width: 1100px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+.about_us a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.about_us a:hover{
+    color: #e9204f;;
+}
+.left{
+    width: 770px;
+    height: 550px;
+    background: url(../images/teamwork.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.down{
+    background: #0807078f;
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    letter-spacing: -0.04px;
+}
+.noman{
+    padding: 470px 0px 14px 25px;
+}
+
+.noman h3{
+    font-size: 30px;
+    font-weight: 700;
+   
+    
+}
+.noman p{ 
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+}
+.noman:hover{
+    padding-left: 500px;
+    transition: 1s;
+}
+.noman2{
+    padding: 185px 0px 14px 25px;
+}
+
+.noman2 h3{
+    font-size: 30px;
+    font-weight: 700;
+   
+    
+}
+.noman2 p{ 
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.noman2:hover{
+    padding-left: 205px;
+    transition: 1s;
+}
+.noman3{
+    padding: 185px 0px 14px 25px;
+}
+
+.noman3 h3{
+    font-size: 30px;
+    font-weight: 700;
+   
+    
+}
+.noman3 p{ 
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.noman3:hover{
+    padding-left: 290px;
+    transition: 1s;
+}
+ .down:hover{
+    background: transparent;
+ }   
+.right{
+    margin-left: 20px;
+    display: inline-block;
+}
+.upor{
+    width: 400px;
+      height: 265px;
+
+    background: url(../images/philosophy.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+ 
+}
+.upor img{ 
+    width: 400px;
+    height: 265px;
+
+}
+.nich{
+    width: 400px;
+      height: 265px;
+    margin-top: 20px;
+    background: url(../images/office2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+.card_about{
+    display: inline-flex;
+
+    margin-left: 70px;
+}
+.card_about_div{
+    margin-right: 45px;
+  
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.card_about_div h1{
+    padding: 0px 0px 40px 0px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card_about_div p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.client{
+    display: inline-flex;
+    margin-left: 70px;
+}
+.client_img{}
+
+.client_img img{
+    width: 450px;
+}
+.client_say{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.client_say p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 70px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    text-align: justify;
+}
+.client_say h4{
+    margin-top: 100px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #f9e6e6;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    font-size: 18px;
+}
+.friday{
+    background: #fff !important;
+    margin-top:100px ;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-top: 1px solid #ffffff45;
+    padding-top: 30px;
+    padding: 20px 0px 20px 0px;
+    
+}
+.friday img{
+   
+    padding: 0px 35px 0px 35px;
+    
+}
+
+.alada7{
+    background: url(../images/deal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada8{ 
+    background: url(../images/sticky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada9{
+    background: url(../images/feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada10{
+    background: url(../images/product.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada11{
+    background: url(../images/agency.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alada12{
+    background: url(../images/career.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.choto{
+    background: transparent;
+    color: transparent;
+    padding: 330px 0px 30px 0px;
+}
+.choto h3{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+}
+.choto h1{
+    padding: 10px 30px 60px 30px;
+    font-size: 25px;
+}
+.choto i{
+    font-size: 30px;
+}
+.choto:hover{
+    background: #0000009e;
+    color:  #fff;
+    padding: 280px 0px 50px 0px;
+    transition: .5s;
+}
+.talk{
+   
+    background: #111;
+    width: 100%;
+    display: inline-flex;
+    padding: 80px 0px 80px 0px;
+}
+.social{
+    margin-left: 120px;
+    display: inline-flex;
+}
+.icon{
+    background: transparent;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    color: #fff;
+    border: 2px solid #e9204f;
+    padding: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.icon:hover{
+    color: #e9204f;
+   margin-top: -10px;
+}
+
+.talk h1{
+    font-size: 60px;
+    margin-left: 150px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.talk button{
+    margin-left: 150px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.talk button:hover{
+    background: #e9204f;
+    transition: .5s;
+
+}
+.address{
+    width: 100%;
+    display: inline-flex;
+    background: #222;
+}
+.address a{
+    text-decoration: none;
+
+}
+.berlin{
+    text-align: center;
+    padding: 20px 250px 20px 250px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+    color: #fff;
+}
+.berlin p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.berlin:hover{
+    color: #e9204f;
+}
+.copy{
+    display: inline-flex;
+    background: #000;
+    width: 100%;
+
+}
+.copy div{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    color: #fff;
+}
+.foot{
+    margin-left: 515px;
+}
+.foot ul{
+    padding: 15px 0px;
+}
+.foot ul li{
+    display: inline;
+    margin-left: -4px;
+}
+.foot ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+::selection{
+    background: none;
+    color: red;
+}
+
+
+@mediaonlyscreen and (min-device-width:320px)and(max-device-width:420px)
+{
+        .top_part{
+
+        }
+        .back{
+
+        }
+        .back div{
+            width: 100%;
+        }
+        .logo{
+
+        }
+        .nav{
+            display: none;
+        }
+
+
+}
+
